@@ -18,8 +18,7 @@ email: neil@johari.tech
 description:
   Hi! I'm Neil.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "johari.tech" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
+url: "http://johari.tech" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  neiljohari
 
 # Build settings
