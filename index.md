@@ -6,4 +6,4 @@ layout: home
 ---
 # About Me
 Hello! My name is Neil Johari, and I'm a 17 year old with a passion for programming.
-You can [check out my resume here](http://neiljohari.s3.amazonaws.com/resume.pdf), and email me at [neil@johari.tech](mailto:neil@johari.tech).
+You can [check out my resume here](/assets/resume.pdf), and email me at [neil@johari.tech](mailto:neil@johari.tech).
