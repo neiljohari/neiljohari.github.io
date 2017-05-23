@@ -3,7 +3,6 @@
 @import "minima";
 
 .profile{
-  display: inline-block;
   width: 145px; height: 150px;
   border-radius: 50%;
   -webkit-transition: all 1s ease; /* Safari and Chrome */
@@ -11,9 +10,8 @@
   -ms-transition: all 1s ease; /* IE 9 */
   -o-transition: all 1s ease; /* Opera */
   transition: all 1s ease-in-out;
-  box-shadow:0 0 10px ;
+  box-shadow: 0 0 10px ;
 }
-
 
 .profile:hover {
     -webkit-transform:scale(1.1); /* Safari and Chrome */
@@ -23,9 +21,10 @@
     transform:scale(1.1);
 }
 
-.post-thumb {
-    float: left
+/* MEDIA QUERIES */
+@media screen and (min-width: 47.5em ) {
+  .pull-left { margin-right: 500px; }
+	.pull-right { position: absolute; top: 0; right: 0; width: 500px; }
 }
-.post-content {
-    margin-left: 200px
-}
+
+.container { position: relative; margin: .5em; }
