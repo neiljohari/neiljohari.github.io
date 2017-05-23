@@ -2,7 +2,11 @@
 ---
 @import "minima";
 
-.profile{
+.profile {
+  text-align: center;
+}
+
+.profile img {
   width: 145px; height: 150px;
   border-radius: 50%;
   -webkit-transition: all 1s ease; /* Safari and Chrome */
@@ -13,7 +17,7 @@
   box-shadow: 0 0 10px ;
 }
 
-.profile:hover {
+.profile:hover img {
     -webkit-transform:scale(1.1); /* Safari and Chrome */
     -moz-transform:scale(1.1); /* Firefox */
     -ms-transform:scale(1.1); /* IE 9 */
@@ -22,9 +26,9 @@
 }
 
 /* MEDIA QUERIES */
+.container { position: relative; margin: .5em; }
+
 @media screen and (min-width: 47.5em ) {
   .pull-left { margin-right: 500px; }
 	.pull-right { position: absolute; top: 0; right: 0; width: 500px; }
 }
-
-.container { position: relative; margin: .5em; }
