@@ -2,10 +2,6 @@
 ---
 @import "minima";
 
-.profile {
-  text-align: center;
-}
-
 .profile img {
   width: 145px; height: 150px;
   border-radius: 50%;
@@ -18,11 +14,11 @@
 }
 
 .profile:hover img {
-    -webkit-transform:scale(1.1); /* Safari and Chrome */
-    -moz-transform:scale(1.1); /* Firefox */
-    -ms-transform:scale(1.1); /* IE 9 */
-    -o-transform:scale(1.1); /* Opera */
-    transform:scale(1.1);
+  -webkit-transform:scale(1.1); /* Safari and Chrome */
+  -moz-transform:scale(1.1); /* Firefox */
+  -ms-transform:scale(1.1); /* IE 9 */
+  -o-transform:scale(1.1); /* Opera */
+  transform:scale(1.1);
 }
 
 /* MEDIA QUERIES */
@@ -31,4 +27,11 @@
 @media screen and (min-width: 47.5em ) {
   .pull-left { margin-right: 500px; }
 	.pull-right { position: absolute; top: 0; right: 0; width: 500px; }
+}
+
+@media screen and (max-width: 759px){
+  .profile {
+    text-align: center;
+    width: 100%;
+  }
 }
