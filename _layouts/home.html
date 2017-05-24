@@ -4,11 +4,33 @@ layout: default
 
 <div class="home">
     <div class="container">
-      <div class="pull-left profile">
+      <a href="#" class="pull-left profile" data-toggle="modal" data-target="#myModal">
         <img src="/assets/neil.png" alt="About Neil" title="About Neil"/>
-      </div>
+      </a>
+
       <div class="pull-right">
         {{ content }}
      </div>
    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Picture at Research Symposium</h4>
+      </div>
+      <div class="modal-body">
+          <img src="/assets/research_team.png" alt="Research Symposium" title="Research Symposium"/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
 </div>
