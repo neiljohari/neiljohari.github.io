@@ -20,18 +20,3 @@
   -o-transform:scale(1.1); /* Opera */
   transform:scale(1.1);
 }
-
-/* MEDIA QUERIES */
-.container { position: relative; margin: .5em; }
-
-@media screen and (min-width: 47.5em ) {
-  .pull-left { margin-right: 500px; }
-	.pull-right { position: absolute; top: 0; right: 0; width: 500px; }
-}
-
-@media screen and (max-width: 759px){
-  .profile {
-    text-align: center;
-    width: 100%;
-  }
-}

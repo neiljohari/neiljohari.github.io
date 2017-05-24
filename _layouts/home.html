@@ -3,13 +3,15 @@ layout: default
 ---
 
 <div class="home">
-    <div class="container">
-      <a href="#" class="pull-left profile" data-toggle="modal" data-target="#myModal">
-        <img src="/assets/neil.png" alt="About Neil" title="About Neil"/>
-      </a>
+    <div class="container-fluid">
+      <div class="row">
+        <a href="#" class="col-md-3 profile " data-toggle="modal" data-target="#myModal">
+          <img class="img-responsive center-block" src="/assets/neil.png" alt="About Neil" title="About Neil"/>
+        </a>
 
-      <div class="pull-right">
-        {{ content }}
+        <div class="col-md-9">
+          {{ content }}
+       </div>
      </div>
    </div>
 </div>
