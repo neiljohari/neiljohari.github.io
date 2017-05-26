@@ -5,5 +5,6 @@
 layout: home
 ---
 # About Me
-Hello! My name is Neil Johari, and I'm a 17 year old with a passion for programming.
+Hello! My name is Neil Johari, and I'm currently a student at Syosset High School. I have a passion for programming, and recently I've been most interested in Machine Learning and web development with Rails. [Check out my GitHub](https://github.com/neiljohari) to see my open source contributions!
+
 You can [check out my resume here](/assets/files/resume.pdf), and email me at [neil@johari.tech](mailto:neil@johari.tech).

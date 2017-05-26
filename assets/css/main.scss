@@ -2,17 +2,26 @@
 ---
 @import "minima";
 
+// Vertically aligns the profile picture for desktop-viewing
+@media(min-width:992px){
+  .profile img {
+    margin-top: 35px;
+  }
+}
+
+// Makes the profile image round, forces dimensions, causes all future transitions to look smooth (hover), and adds a shadow
 .profile img {
   width: 145px; height: 150px;
   border-radius: 50%;
-  -webkit-transition: all 1s ease; /* Safari and Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
-  -ms-transition: all 1s ease; /* IE 9 */
-  -o-transition: all 1s ease; /* Opera */
-  transition: all 1s ease-in-out;
+  -webkit-transition: all .2s ease; /* Safari and Chrome */
+  -moz-transition: all .2s ease; /* Firefox */
+  -ms-transition: all .2s ease; /* IE 9 */
+  -o-transition: all .2s ease; /* Opera */
+  transition: all .2s ease-in-out;
   box-shadow: 0 0 10px black;
 }
 
+// Scales the profile image to achieve a hover effect, forces cursor to not go to grab-mode (image is a child of link element)
 .profile:hover img {
   cursor: pointer;
   -webkit-transform:scale(1.1); /* Safari and Chrome */
