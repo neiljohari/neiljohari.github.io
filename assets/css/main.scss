@@ -11,7 +11,7 @@
 
 // Makes the profile image round, forces dimensions, causes all future transitions to look smooth (hover), and adds a shadow
 .profile img {
-  width: 145px; height: 150px;
+  width: 160px;
   border-radius: 50%;
   -webkit-transition: all .2s ease; /* Safari and Chrome */
   -moz-transition: all .2s ease; /* Firefox */
