@@ -2,6 +2,9 @@
 ---
 @import "minima";
 
+$scale: 1.2;
+$transition: all .2s ease;
+
 // Vertically aligns the profile picture for desktop-viewing
 @media(min-width:992px){
   .profile img {
@@ -13,20 +16,20 @@
 .profile img {
   width: 160px;
   border-radius: 50%;
-  -webkit-transition: all .2s ease; /* Safari and Chrome */
-  -moz-transition: all .2s ease; /* Firefox */
-  -ms-transition: all .2s ease; /* IE 9 */
-  -o-transition: all .2s ease; /* Opera */
-  transition: all .2s ease-in-out;
   box-shadow: 0 0 10px black;
+  -webkit-transition: $transition; /* Safari and Chrome */
+  -moz-transition: $transition; /* Firefox */
+  -ms-transition: $transition; /* IE 9 */
+  -o-transition: $transition; /* Opera */
+  transition: $transition;
 }
 
 // Scales the profile image to achieve a hover effect, forces cursor to not go to grab-mode (image is a child of link element)
 .profile:hover img {
   cursor: pointer;
-  -webkit-transform:scale(1.1); /* Safari and Chrome */
-  -moz-transform:scale(1.1); /* Firefox */
-  -ms-transform:scale(1.1); /* IE 9 */
-  -o-transform:scale(1.1); /* Opera */
-  transform:scale(1.1);
+  -webkit-transform:scale($scale); /* Safari and Chrome */
+  -moz-transform:scale($scale); /* Firefox */
+  -ms-transform:scale($scale); /* IE 9 */
+  -o-transform:scale($scale); /* Opera */
+  transform:scale($scale);
 }
