@@ -4,14 +4,16 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-# About Me
-Hello! My name is Neil Johari, and I’m a student at the University of Michigan.
 
-I am currently an Instructional Aide for the [Engineering 100 class on
-Electronics for Atmospheric and Space
-Measurements](https://eng100.engin.umich.edu/list/section-950/), where I develop
-high quality videos and lab manuals published under [Hands on
-Engineering](https://www.youtube.com/channel/UCENsrYk8n9EKb4PY6B0s82A/videos).
+# About Me
+
+Hello! My name is Neil Johari, and I’m a senior at the University of Michigan.
+
+My current focus is on founding [eecs.courses](https://eecs.courses/), an online
+learning platform startup.
+
+I am currently an Instructional Aide for [EECS 280 (Programming and Intro Data
+Structures)](http://eecs280.org/).
 
 [Check out my GitHub](https://github.com/neiljohari) to see my open source
 contributions!
