@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby '2.6.3' 
+ruby '2.7.2' 
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -11,7 +11,7 @@ ruby '2.6.3'
 # Happy Jekylling!
 gem "jekyll", ">= 3.6.3"
 
-gem "ffi", ">= 1.9.24"
+gem 'ffi', github: 'ffi/ffi'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"

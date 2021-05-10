@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/ffi/ffi.git
+  revision: 4430b6d5fe720f9cb84a845a0bee9abf23e22cea
+  specs:
+    ffi (1.15.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -9,7 +15,6 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    ffi (1.9.25)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
@@ -61,14 +66,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ffi (>= 1.9.24)
+  ffi!
   jekyll (>= 3.6.3)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.6.3p62
+   ruby 2.7.2p137
 
 BUNDLED WITH
-   1.17.3
+   2.2.17

@@ -7,13 +7,11 @@ layout: home
 
 # About Me
 
-Hello! My name is Neil Johari, and I’m a senior at the University of Michigan.
+Hello! My name is Neil Johari, and I’m an incoming Software Engineer at Roblox.
 
-My current focus is on founding [eecs.courses](https://eecs.courses/), an online
-learning platform startup.
-
-I am currently an Instructional Aide for [EECS 280 (Programming and Intro Data
-Structures)](http://eecs280.org/).
+I recently graduated from the University of Michigan, where I was an
+Instructional Aide for ENGR100-950 (Intro to Engineering) and EECS280
+(Programming and Intro Data Structures).
 
 [Check out my GitHub](https://github.com/neiljohari) to see my open source
 contributions!
