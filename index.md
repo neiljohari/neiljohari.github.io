@@ -1,19 +1,11 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
 
-# About Me
+## About Me
 
-Hello! My name is Neil Johari, and I’m an incoming Software Engineer at Roblox.
+I'm a Staff Software Engineer at [Roblox](https://www.roblox.com/). I'm particularly interested in search engineering and data compression.
 
-I recently graduated from the University of Michigan, where I was an
-Instructional Aide for ENGR100-950 (Intro to Engineering) and EECS280
-(Programming and Intro Data Structures).
+I graduated from the [University of Michigan](https://umich.edu/) College of Engineering.
 
-[Check out my GitHub](https://github.com/neiljohari) to see my open source
-contributions!
-
-You can [check out my resume here](/assets/files/resume/resume.pdf), and email me at [neil@johari.tech](mailto:neil@johari.tech).
+[Check out my open source work on GitHub](https://github.com/neiljohari), or feel free to reach out via email.

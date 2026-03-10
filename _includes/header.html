@@ -1,10 +1,6 @@
-<header class="site-header" role="banner">
-
-  <div class="wrapper">
-    <div class="container-fluid">
-      {% assign default_paths = site.pages | map: "path" %}
-      {% assign page_paths = site.header_pages | default: default_paths %}
-      <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-    </div>
-  </div>
+<header class="site-header">
+  <nav class="nav-wrapper">
+    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="nav-link" href="{{ "/blog" | relative_url }}">Blog</a>
+  </nav>
 </header>
